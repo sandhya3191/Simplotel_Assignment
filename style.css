@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Section Styles */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul ,.social-icons ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li, .social-icons ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-icons img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+/* Building Image Section Styles */
+.building-section {
+    max-width:100%;
+    height:100vh;
+    background-image: url("./images/heroimg.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    padding-left: 50px;
+    color: #fff;
+    text-align: left; 
+}
+
+.building-content{
+    position: absolute;
+    bottom: 0;
+    padding-left: 50px;
+    
+}
+.lorem-ipsum{
+    border: 2px solid #000;
+    background: linear-gradient(to right, #000, #ccc);
+    color: #fff;
+    padding: 10px 50px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+.middle-content {  
+    background-color: #B3B3B3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:30px;
+    
+  }
+.middle-content-text{
+    width:325px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Bottom Section */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color:#D3D3D3;
+    padding:30px 100px;
+    gap:20px;
+}
+.card-container{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.card{
+    width:325px;
+    background-color: #D3D3D3;
+    overflow: hidden;
+    margin-bottom: 20PX;
+    
+}
+.card img{
+    width:100%;
+    height:auto;
+
+}
+.card-content h4{
+    font-size: 28px;
+    margin-bottom: 8px;;
+}
+
+.card-content p{
+    font-size:15px;
+    line-height:1.3; 
+} 
+
+.card-content1 {
+    text-align: left;
+    overflow: hidden;
+}
+.card-content2 {
+    text-align: center;
+    overflow: hidden;
+}
+.card-content3 {
+    text-align: right;
+    overflow: hidden;
+}
+
+button{
+    border:1px solid black;
+    background-color: #000;
+    padding:10px 20px;
+    color:white;
+}
+
+
+
